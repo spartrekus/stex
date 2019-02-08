@@ -79,7 +79,7 @@ void readfileline( char *fileoutput , char *filesource )
    target = fopen( fileoutput , "wb+");
    fputs( "%!PS\n" , target );
    fputs( "\n" , target );
-   fputs( "/Courier 10 selectfont\n" , target );
+   fputs( "/Palatino 10 selectfont\n" , target );
    fputs( "\n" , target );
    int fileeof = 0;
    while( fileeof == 0 )
